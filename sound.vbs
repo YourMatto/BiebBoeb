@@ -1,6 +1,4 @@
 Set WshShell = WScript.CreateObject("WScript.Shell")
-Do
-for i = 0 to 50
+for i = 0 to 500
 WshShell.SendKeys(chr(175))
 next
-Loop
